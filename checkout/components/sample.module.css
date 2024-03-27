@@ -1,0 +1,9 @@
+.thing  {
+color: rgb(49, 6, 151);
+text-align: center;
+}
+.client-text{
+    text-align: center;
+    display: block;
+    color: rgb(49, 6, 151);
+}
