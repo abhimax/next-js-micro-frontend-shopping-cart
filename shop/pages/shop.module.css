@@ -1,0 +1,18 @@
+.title {
+    margin: 0;
+    width: 100%;
+    padding-top: 80px;
+    line-height: 1.15;
+    font-size: 32px;
+    text-align: center;
+
+  }
+  .product-list{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .product-list li{
+    list-style: none;
+    margin: 0 20px;
+  }
