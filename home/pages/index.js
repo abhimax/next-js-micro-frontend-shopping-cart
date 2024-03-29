@@ -8,7 +8,7 @@ const Home = ({ loaded }) => {
     <div>
       <Head>
         <title>Home</title>
-        <link rel="icon" href="/nextjs-14-micro-frontend-poc/home/public/favicon.ico" />
+        <link rel="icon" href="/next-js-micro-frontend-shopping-cart/home/public/favicon.ico" />
       </Head>
 
       <div className="hero">

@@ -15,7 +15,7 @@ const Shop = props => (
   <div>
     <Head>
       <title>Shop</title>
-      <link rel="icon" href="/nextjs-14-micro-frontend-poc/shop/public/favicon.ico" />
+      <link rel="icon" href="/next-js-micro-frontend-shopping-cart/shop/public/favicon.ico" />
     </Head>
 
     <div className="hero">

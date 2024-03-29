@@ -7,7 +7,7 @@ const Checkout = props => (
   <div>
     <Head>
       <title>checkout</title>
-      <link rel="icon" href="/nextjs-14-micro-frontend-poc/checkout/public/favicon.ico" />
+      <link rel="icon" href="/next-js-micro-frontend-shopping-cart/checkout/public/favicon.ico" />
     </Head>
 
     <div className="hero">

@@ -7,7 +7,7 @@ run `pnpm run start` and browse to `http://localhost:3001` or one of the others
 ## How it works
 To streamline the development workflow of our micro-frontend architecture, we utilize the powerful pnpm command
 ```bash
-pnpm --parallel --filter nextjs-14-micro-frontend-poc_* dev
+pnpm --parallel --filter next-js-micro-frontend-shopping-cart_* dev
 ```
 This command efficiently launches all the micro-frontend applications in our suite (namely checkout, home, and shop) simultaneously, in parallel. By doing so, it facilitates a cohesive development experience, allowing each application to be run and tested together seamlessly.
 
