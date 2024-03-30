@@ -1,5 +1,5 @@
 # Micro-Frontend with Next.js  and Webpack Module Federation
-This PoC application showcases micro frontend architecture with features for both server-side and client-side rendering in Next.js. It leverages Webpack 5 Module Federation for sharing micro frontends and utilizes Next.js 14 along with @module-federation/nextjs-mf.
+This Shopping Cart application showcases micro frontend architecture with features for both server-side and client-side rendering in Next.js. It leverages Webpack 5 Module Federation for sharing micro frontends and utilizes Next.js 14 along with @module-federation/nextjs-mf.
 
 ## Getting Started
 
@@ -31,6 +31,8 @@ The omnidirectional routing now hooks into webpack federation loading functions,
 
 ### Sharing
 
-Next.js has all its internal modules pre-shared vis `@module-federation/nextjs-mf` you do need to share react via the plugin in order to ensure that the share scope runtime requirements are included - since you cannot share modules in a normal manner, like nextjs internls, the pre-shared modules are attached at runtime to the share scope. 
+Next.js has all its internal modules pre-shared vis `@module-federation/nextjs-mf` you do need to share react via the plugin in order to ensure that the share scope runtime requirements are included - since you cannot share modules in a normal manner, like nextjs internls, the pre-shared modules are attached at runtime to the share scope.
+
+
 
 
