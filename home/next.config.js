@@ -3,9 +3,13 @@ const NextFederationPlugin = require('@module-federation/nextjs-mf');
 // loading remotes on demand, not ideal for SSR
 const remotes = isServer => {
   const location = isServer ? 'ssr' : 'chunks';
+  // return {
+  //   shop: `shop@http://localhost:3002/_next/static/${location}/remoteEntry.js`,
+  //   checkout: `checkout@http://localhost:3000/_next/static/${location}/remoteEntry.js`,
+  // };
   return {
-    shop: `shop@http://localhost:3002/_next/static/${location}/remoteEntry.js`,
-    checkout: `checkout@http://localhost:3000/_next/static/${location}/remoteEntry.js`,
+    shop: `shop@https://vercel.com/abhiman-ranaweeras-projects/next-js-micro-frontend-shopping-cart-shop/_next/static/${location}/remoteEntry.js`,
+    checkout: `checkout@https://vercel.com/abhiman-ranaweeras-projects/next-js-micro-frontend-shopping-cart-checkout/_next/static/${location}/remoteEntry.js`,
   };
 };
 module.exports = {
