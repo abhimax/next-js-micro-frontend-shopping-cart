@@ -8,8 +8,8 @@ const remotes = isServer => {
   //   checkout: `checkout@http://localhost:3000/_next/static/${location}/remoteEntry.js`,
   // };
   return {
-    shop: `shop@next-js-micro-frontend-shopping-cart-shop.vercel.app/_next/static/${location}/remoteEntry.js`,
-    checkout: `checkout@next-js-micro-frontend-shopping-cart-checkout.vercel.app/_next/static/${location}/remoteEntry.js`,
+    shop: `shop@https://next-js-micro-frontend-shopping-cart-shop-pj3j6lzfc.vercel.app/_next/static/${location}/remoteEntry.js`,
+    checkout: `checkout@https://next-js-micro-frontend-shopping-cart-checkout-lycscqch4.vercel.app/_next/static/${location}/remoteEntry.js`,
   };
 };
 module.exports = {

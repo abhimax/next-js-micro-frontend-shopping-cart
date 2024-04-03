@@ -4,8 +4,8 @@ const NextFederationPlugin = require('@module-federation/nextjs-mf');
 const remotes = isServer => {
   const location = isServer ? 'ssr' : 'chunks';
   return {
-    home: `home@http://localhost:3001/_next/static/${location}/remoteEntry.js`,
-    shop: `shop@http://localhost:3002/_next/static/${location}/remoteEntry.js`,
+    home: `home@https://next-js-micro-frontend-shopping-cart-home-5027mw351.vercel.app/_next/static/${location}/remoteEntry.js`,
+    shop: `shop@https://next-js-micro-frontend-shopping-cart-shop-pj3j6lzfc.vercel.app/_next/static/${location}/remoteEntry.js`,
   };
 };
 module.exports = {
