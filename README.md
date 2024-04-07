@@ -33,6 +33,8 @@ The omnidirectional routing now hooks into webpack federation loading functions,
 
 Next.js has all its internal modules pre-shared vis `@module-federation/nextjs-mf` you do need to share react via the plugin in order to ensure that the share scope runtime requirements are included - since you cannot share modules in a normal manner, like nextjs internls, the pre-shared modules are attached at runtime to the share scope.
 
+### Deployment
+This Micro-frontend app has been successfully deployed on Vercel! Each Apps – Home, Checkout, and Host – operates independently as microfrontend apps, seamlessly running on the Vercel platform. Ready to explore? Check out the Home app at [here](https://next-js-micro-frontend-shopping-cart-home-iqcn5kluw.vercel.app/). Let the digital adventures begin! 🚀
 
 
 
