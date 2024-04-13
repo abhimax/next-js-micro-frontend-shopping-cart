@@ -3,7 +3,7 @@ This Shopping Cart application showcases micro frontend architecture with featur
 
 ## Getting Started
 
-run `pnpm run start` and browse to `http://localhost:3001` or one of the others
+run `pnpm run start` and browse to `https://next-js-micro-frontend-shopping-cart-home-5027mw351.vercel.app` or one of the others. previously before the deployment it was http://localhost:3001
 ## How it works
 To streamline the development workflow of our micro-frontend architecture, we utilize the powerful pnpm command
 ```bash
@@ -18,9 +18,9 @@ Additionally, each application shares the same index from the home application, 
 
 There are three next.js applications
 
-- `checkout` - port 3000
-- `home` - port 3001
-- `shop` - port 3002
+### `checkout Micro-Frontend` - https://next-js-micro-frontend-shopping-cart-checkout-lycscqch4.vercel.app (before deployment port 3000)
+### `home  Micro-Frontend` - https://next-js-micro-frontend-shopping-cart-home-5027mw351.vercel.app (before deployment port 3001)
+### `shop  Micro-Frontend` - https://next-js-micro-frontend-shopping-cart-shop-pj3j6lzfc.vercel.app (before deployment port 3002)
 
 The applications utilize omnidirectional routing and pages or components are able to be federated between applications like a SPA
 
