@@ -17,6 +17,7 @@ module.exports = {
         exposes: {
           './title': './components/exposedTitle.js',
           './checkout': './pages/checkout.js',
+          './todos': './pages/todos.js',
           './pages-map': './pages-map.js',
         },
         remotes: remotes(options.isServer),

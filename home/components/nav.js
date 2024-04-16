@@ -22,6 +22,9 @@ const Nav = () => (
         <Link href="/checkout">
           Checkout
         </Link>
+        <Link href="/todos">
+          Todos
+        </Link>
       </li>
     </ul>
 
